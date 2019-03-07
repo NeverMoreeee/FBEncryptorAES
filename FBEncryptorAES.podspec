@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint FBEncryptorAESPodspec.podspec' to ensure this is a
+#  Be sure to run `pod spec lint FBEncryptorAES.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "FBEncryptorAESPodspec"
+  spec.name         = "FBEncryptorAES"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of FBEncryptorAESPodspec."
+  spec.summary      = "A short description of FBEncryptorAES."
 
   spec.description  = <<-DESC
                    加解密
 
-  spec.homepage     = "https://github.com/NeverMoreeee/FBEncryptorAES/blob/master/FBEncryptorAESPodspec"
+  spec.homepage     = "https://github.com/NeverMoreeee/FBEncryptorAES/blob/master/FBEncryptorAES"
 
 
   spec.license      = "MIT"
