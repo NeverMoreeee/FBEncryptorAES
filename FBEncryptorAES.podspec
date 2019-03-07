@@ -9,13 +9,13 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FBEncryptorAES"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of FBEncryptorAES."
+  spec.version      = "0.0.2"
+  spec.summary      = "加解密"
 
-  spec.description  = <<-DESC
-                   加解密
+  spec.description  = "加解密"
 
-  spec.homepage     = "https://github.com/NeverMoreeee/FBEncryptorAES/blob/master/FBEncryptorAES"
+
+  spec.homepage     = "https://github.com/NeverMoreeee/FBEncryptorAES.git"
 
 
   spec.license      = "MIT"
@@ -38,19 +38,10 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = "FBEncryptorAES", "FBEncryptorAES/*.{h,m}"
-  spec.exclude_files = "FBEncryptorAES/Exclude"
+  spec.source_files  = "FBEncryptorAES", "*.{h,m}"
+  # spec.exclude_files = "FBEncryptorAES/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
@@ -58,24 +49,11 @@ Pod::Spec.new do |spec|
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
-
   # spec.framework  = "SomeFramework"
   spec.frameworks = "CommonCrypto", "Foundation"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
 
   # spec.requires_arc = true
 
