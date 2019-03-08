@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FBEncryptorAES"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "加解密"
 
   spec.description  = "加解密"
@@ -55,7 +55,7 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-  # spec.requires_arc = true
+  spec.requires_arc = false
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
